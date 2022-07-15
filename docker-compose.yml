@@ -6,3 +6,12 @@ services:
     build: ./infra/php  # => ビルドコンテキスト(docker buildを実行する際の作業ディレクトリのこと)
     volumes:
       - ./src:/data  # => ホスト側の ./src ディレクトリをappサービスのコンテナ内 /data へマウントする
+  
+  web:
+    image: nginx:1.20-alpine
+    ports:
+      - 8080:80
+    volumes:
+      - ./src:/data
+      - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    working_dir: /data
