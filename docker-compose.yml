@@ -1,0 +1,8 @@
+# Docker Composeファイルのバージョン
+version: '3.9'
+
+services:
+  app: # => サービス名は任意
+    build: ./infra/php  # => ビルドコンテキスト(docker buildを実行する際の作業ディレクトリのこと)
+    volumes:
+      - ./src:/data  # => ホスト側の ./src ディレクトリをappサービスのコンテナ内 /data へマウントする
