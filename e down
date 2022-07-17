@@ -1,0 +1,36 @@
+[33mcommit 6cdcda5aae1de3f2d0229ce9a9465ae722cf515d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: fairy_wings <m.mygn45@gmail.com>
+Date:   Fri Jul 15 23:32:52 2022 +0900
+
+    feat laravel install
+
+[33mcommit 363384c551d6ce0a732661e340311a42cbeef6a8[m
+Author: fairy_wings <m.mygn45@gmail.com>
+Date:   Fri Jul 15 23:29:10 2022 +0900
+
+    feat create docker web container
+
+[33mcommit 45267e6bc497f1bbf8f8dfd8998f74ed0834d00f[m
+Author: fairy_wings <m.mygn45@gmail.com>
+Date:   Fri Jul 15 23:19:41 2022 +0900
+
+    feat create docker app container
+
+[33mcommit 89377370b1f58ccbed7041ce17f28220f0936cf7[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: a2d4f43 ec71408
+Author: fairy_wings <m.mygn45@gmail.com>
+Date:   Fri Jul 15 21:58:43 2022 +0900
+
+    second commit
+
+[33mcommit a2d4f43f17d3615fd94c8ab74e5525c23958502d[m
+Author: fairy_wings <m.mygn45@gmail.com>
+Date:   Fri Jul 15 21:39:24 2022 +0900
+
+    first commit
+
+[33mcommit ec71408ba87bec72b5f9fa04d245ae85208ae703[m
+Author: dev-miyaguni <77964422+dev-miyaguni@users.noreply.github.com>
+Date:   Fri Jul 15 21:34:22 2022 +0900
+
+    Initial commit
